@@ -1,0 +1,164 @@
+h2{
+    text-align: center;
+    font-family: sans-serif;
+ }
+ h5,
+ p,
+ a{
+    text-align: left;
+    font-family: sans-serif;
+ }
+.container.navbar-brand{
+    font-family: monospace;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('bg1.jpg');	
+}
+
+.box{
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 15px;
+	transform: translate(-50%,-50%);
+	background: #181e2b;
+	text-align: center;
+	width: 430px;
+}
+#klik{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	
+}
+
+#klik:hover{
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "Pasword"],.box input[type = "email"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "Pasword"]:focus,.box input[type = "email"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.footer-contents{
+	max-width: 1170px;
+	margin:left;
+    box-sizing: border-box;
+}
+
+.footer-rows{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+   margin-left: -30px;
+}
+
+.footer-columns{
+   padding: 0 100px;
+}
+
+.footer-columns h4{
+	font-size: 18px;
+	color: #ffffff;
+   	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+   	margin: left;
+}
+
+.footer-columns h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: whitesmoke;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-columns ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-columns ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-columns .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-columns .social-links a:hover{
+	color: black;
+	background-color: #ffffff;
+}
+
+.copyright a{
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+	transition: all 0.3s ease;
+}
+
+
+
